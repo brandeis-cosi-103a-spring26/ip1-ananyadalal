@@ -78,4 +78,8 @@ public class Deck {
         }
         return null; // No card available or invalid name
     }
+
+    public boolean hasFrameworks() {
+        return !frameworks.isEmpty();
+    }
 }
