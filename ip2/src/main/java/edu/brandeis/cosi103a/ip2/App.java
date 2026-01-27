@@ -98,7 +98,7 @@ public class App
         return false;
     }
 
-    private static int getCost(String cardName) {
+    static int getCost(String cardName) {
         switch (cardName) {
             case "Method":
                 return 2;
